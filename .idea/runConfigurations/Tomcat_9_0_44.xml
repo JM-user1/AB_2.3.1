@@ -1,7 +1,15 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Tomcat 9.0.44" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
     <option name="LOCAL" value="false" />
-    <deployment />
+    <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+    <option name="UPDATING_POLICY" value="hot-swap-classes" />
+    <deployment>
+      <artifact name="Aleksa_2.3.1:war exploded">
+        <settings>
+          <option name="CONTEXT_PATH" value="/Aleksa_2_3_1_war_exploded" />
+        </settings>
+      </artifact>
+    </deployment>
     <server-settings>
       <data>
         <option name="targets">
@@ -55,6 +63,9 @@
     </RunnerSettings>
     <method v="2">
       <option name="Make" enabled="true" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="Aleksa_2.3.1:war exploded" />
+      </option>
     </method>
   </configuration>
 </component>
